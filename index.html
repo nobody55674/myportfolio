@@ -259,6 +259,7 @@
       .wp-block-navigation .wp-block-navigation-item__label {
         overflow-wrap: break-word;
         word-break: normal;
+        padding-right: 20px;
       }
       .wp-block-navigation .wp-block-navigation-item__description {
         display: none;
@@ -3219,7 +3220,7 @@
                 class="has-link-color wp-block-site-title wp-elements-83e94f33c0b26d6f294f2e54bd65ce57"
               >
                 <a
-                  href="https://saadahmad301.wordpress.com"
+                href="#halfway-section" onclick="scrollToHalfway()
                   target="_self"
                   rel="home"
                   aria-current="page"
@@ -3308,16 +3309,24 @@
                         <li
                           class="wp-block-navigation-item wp-block-navigation-link"
                         >
-                        <a
+                          <a
                             class="wp-block-navigation-item__content"
-                            href="https://saadahmad301.wordpress.com/contact/"
+                            href=""
                             ><span class="wp-block-navigation-item__label"
                               >About</span
                             ></a
                           >
                           <a
                             class="wp-block-navigation-item__content"
-                            href="https://saadahmad301.wordpress.com/contact/"
+                            href="/index.html"
+                            aria-current="page"
+                            ><span class="wp-block-navigation-item__label"
+                              >Home</span
+                            ></a>
+                          
+                          <a
+                            class="wp-block-navigation-item__content"
+                            href="/konctactme.html"
                             ><span class="wp-block-navigation-item__label"
                               >Contact</span
                             ></a
@@ -3360,7 +3369,9 @@
               class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex"
             >
               <div class="wp-block-button">
-                <a href="/konctactme.html" class="wp-block-button__link wp-element-button"
+                <a
+                  href="/konctactme.html"
+                  class="wp-block-button__link wp-element-button"
                   >Contact me</a
                 >
               </div>
@@ -3426,7 +3437,7 @@
             class="wp-block-spacer"
           ></div>
 
-          <h5 class="wp-block-heading">Projects that I have worked on:</h5>
+          <h5 class="wp-block-heading" id="halfway-section">Projects that I have worked on:</h5>
 
           <ul
             class="columns-4 wp-block-post-template is-layout-grid wp-container-20 wp-block-post-template-is-layout-grid"
@@ -3991,21 +4002,19 @@
                   <p>Go to My Fiverr Profile</p>
 
                   <figure class="wp-block-image size-large is-resized">
-                    <img
-                      loading="lazy"
-                      width="696"
-                      height="391"
-                      src="https://saadahmad301.files.wordpress.com/2023/10/coolgadget.pk456_2dec07cf-eff6-4668-a8d7-c652fc1c693c-edited.webp"
-                      alt=""
-                      class="wp-image-41"
-                      style="width: 330px; height: auto"
-                      srcset="
-                        https://saadahmad301.files.wordpress.com/2023/10/coolgadget.pk456_2dec07cf-eff6-4668-a8d7-c652fc1c693c-edited.webp                 696w,
-                        https://saadahmad301.files.wordpress.com/2023/10/coolgadget.pk456_2dec07cf-eff6-4668-a8d7-c652fc1c693c-edited.webp?w=150&amp;h=84  150w,
-                        https://saadahmad301.files.wordpress.com/2023/10/coolgadget.pk456_2dec07cf-eff6-4668-a8d7-c652fc1c693c-edited.webp?w=300&amp;h=169 300w
-                      "
-                      sizes="(max-width: 696px) 100vw, 696px"
-                    />
+                    <a href="https://www.fiverr.com/s/oa81B4" target="_blank">
+                      <img
+                        loading="lazy"
+                        width="696"
+                        height="391"
+                        src="/fiverr-og-logo.5fd6463.png"
+                        alt=""
+                        class="wp-image-41"
+                        style="width: 330px; height: auto"
+                        srcset="/fiverr-og-logo.5fd6463.png 696w"
+                        sizes="(max-width: 696px) 100vw, 696px"
+                      />
+                    </a>
                   </figure>
                 </div>
               </div>
